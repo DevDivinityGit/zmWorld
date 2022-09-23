@@ -1,0 +1,22 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+// NPROGRESS CLASS OVERRIDE STYLES
+//@import '~bootstrap/scss/bootstrap';
+#nprogress .bar {
+  background: #f11941 !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px #f11941, 0 0 5px #f11941 !important;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #f11941 !important;
+  border-left-color: #f11941 !important;
+}
+// END NPROGRESS CLASS OVERRIDE
